@@ -55,17 +55,20 @@ $np->add_arg(
 
 $np->add_arg(
     spec => 'dirport|d:9030',
-    help => 'directory port (default: 9030)',
+    help =>
+'Check the Tor directory server (port 9030 will be used, unless you pass a different one)',
 );
 
 $np->add_arg(
     spec => 'orport|o:9001',
-    help => 'onion-router port (default: 9001)',
+    help =>
+'Check the Tor onion-router relay (port 9001 will be used, unless you pass a different one)',
 );
 
 $np->add_arg(
     spec => 'socksport|s:9050',
-    help => 'SOCKS proxy port (default: 9050)',
+    help =>
+'Check the Tor SOCKS proxy (port 9050 will be used, unless you pass a different one)',
 );
 
 $np->add_arg(
