@@ -1,0 +1,18 @@
+name: check_tor
+description: "file:///README.md"
+url: "https://github.com/evgeni/check_tor"
+tags: Tor
+vendor: The Tor Project
+target: Reporting
+type: Plugin
+license: BSD
+releases: 
+  - 
+    name: 1.0
+    description: "1.0 Release"
+    files: 
+      - 
+        name: check_tor
+        url: "file:///check_tor"
+        description: "First release"
+        checksum: 1995b28d82ba6ae4331152b9447701ea 
